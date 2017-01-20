@@ -1,0 +1,50 @@
+#grayBar {
+	background-color: 	#708090;
+	height: 150px;
+	left: 0px;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 1;
+}
+
+#salmonBar {
+	background-color: #F08080;
+	height: 700px;
+	left: 0px;
+	position: fixed;
+	width: 100%;
+	top: 150px;
+}
+
+#darkgrayBar {
+	background-color: 	#708090;
+	height: 200px;
+	left: 0px;
+	position: fixed;
+	width: 100%;
+	top: 850px;
+	z-index: 1;
+}
+
+h1{
+	font-size: 50px;
+	z-index: 10;
+	position: relative;
+	font-family: Arial;
+	font-style: italic;
+	color: white;
+	text-align: center;
+	top: 200px;
+}
+
+p{
+	font-size: 20px;
+	z-index: 10;
+	position: relative;
+	font-family: Arial;
+	font-style: italic;
+	color: white;
+	text-align: center;
+	top: 170px;
+}
