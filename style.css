@@ -5,37 +5,47 @@
 	position: fixed;
 	width: 100%;
 	top: 0px;
-	z-index: 1;
+	z-index: -1;
 }
 
 #salmonBar {
 	background-color: #F08080;
-	height: 700px;
+	height: 500px;
 	left: 0px;
 	position: fixed;
 	width: 100%;
 	top: 150px;
+	z-index:-1;
 }
 
 #darkgrayBar {
 	background-color: 	#708090;
-	height: 200px;
+	height: 400px;
 	left: 0px;
 	position: fixed;
 	width: 100%;
-	top: 850px;
-	z-index: 1;
+	top: 650px;
+	z-index: -1;
+}
+
+#dp {
+	position: relative;
+	width: 120px;
+	height: 135px;
+	top: 180px;
+	left: 860px;
+	z-index: 2;
 }
 
 h1{
-	font-size: 50px;
+	font-size: 40px;
 	z-index: 10;
 	position: relative;
 	font-family: Arial;
 	font-style: italic;
 	color: white;
 	text-align: center;
-	top: 200px;
+	top: 180px;
 }
 
 p{
